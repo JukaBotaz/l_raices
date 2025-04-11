@@ -26,7 +26,7 @@ while ($propiedad = $resultado->fetch_assoc()) {
         echo "<img src='{$img['url_imagen']}' alt='Imagen de la propiedad'>";
     }
     echo "</div>";
-    echo "</div><hr>";
+    echo "</div>";
 }
 
 $conexion->close();
