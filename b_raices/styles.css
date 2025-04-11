@@ -32,33 +32,35 @@ html {
   h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #333;
+    color: black;
 }
 
-hr{
+form hr {
     width: 100%;
-    margin: 0;
-    border-top: 0.5rem #0036D6;
-    
+    border: none;
+    border-top: 0.3rem solid #0036D6;
+    margin: 1.5rem 0;
 }
+
 
 
 
 form {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
-    padding: 25px;
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin: 20px auto; /* Centra el formulario en la página */
+    margin: 2rem auto; /* Centra el formulario en la página */
 }
 
 label {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 550;
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: black;
 }
 
 input[type="text"],
@@ -66,23 +68,28 @@ input[type="email"],
 input[type="tel"],
 textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 1.6rem;
+    margin-bottom: 1.5rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 12px;
     box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #5cb85c;
+    font-size: 2.2rem;
+    font-weight: 550;
+    background-color: #3A81D3;
     color: white;
-    padding: 10px 15px;
+    padding: 1.6rem 3.2rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     width: 100%;
 }
 
 input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: #326CAE;
 }
+
+.propiedad { margin-bottom: 40px; }
+.galeria img { width: 200px; margin-right: 10px; }
