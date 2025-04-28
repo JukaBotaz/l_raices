@@ -6,10 +6,11 @@ $clave = ""; // En XAMPP, root no tiene contraseña por defecto
 $bd = "bienes_raices"; // Asegúrate que se llama igual tu base de datos
 
 // Conectar a la base de datos
-$conn = new mysqli($host, $usuario, $clave, $bd);
+$conexion = new mysqli($host, $usuario, $clave, $bd);
 
 // Verificar conexión
-if ($conn->connect_error) {
+if ($conexion->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
+
 ?>

@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LC Bienes Raices</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
 </head>
 <body>
-    <header>
-        <div class=".header">
-            <div class="header__logo">
-                <img src="" alt="">
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>     
+        <a href="pagina_propiedad.php">CLICK AQUI</a>
 
-        <div>
-            <p>SPTM</p>
-        </div>
-    </header>
+        <a href="https://wa.me/526444573361" class="boton_whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <form action="/enviar" method="post">.
+            <h1>Contactar un Asesor</h1>
+            <hr>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
     
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+    
+            <label for="celular">Celular:</label><br>
+            <input type="tel" id="celular" name="celular" required><br><br>
+    
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+
 </body>
 </html>
